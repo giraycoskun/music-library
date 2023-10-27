@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "music-library"
+version = "0.1.0"
+description = "A music library service"
+authors = ["giraycoskun <giraycoskun@sabanciuniv.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.104.0"
+psycopg2 = "^2.9.9"
+google-auth-oauthlib = "^1.1.0"
+google-api-python-client = "^2.105.0"
+loguru = "^0.7.2"
+uvicorn = "^0.23.2"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+pytest = "^7.4.3"
+watchfiles = "^0.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
