@@ -1,4 +1,5 @@
 # pylint: disable=all
+# https://medium.com/@abulojoshua1/add-google-oauth-to-your-python-app-in-just-a-few-easy-steps-5d28a8d303fe
 import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery

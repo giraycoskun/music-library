@@ -9,7 +9,7 @@ import uvicorn
 # print(os.getcwd())
 
 if __name__ == "__main__":
-    uvicorn.run("api.main:app", host="127.0.0.1", port=5000, reload=True)
+    uvicorn.run("api.main:app", host="0.0.0.0", port=8081, reload=True)
     # uvicorn_process = Process(
     #     target=uvicorn.run,
     #     kwargs={
